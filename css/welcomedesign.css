@@ -1,0 +1,28 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-image:url("../image/undraw_celebration_0jvk.png");
+	background-size:cover;
+	height:100vh;
+}
+.page{
+	padding-top:5%;
+}
+.page h1{
+		color:#2874A6 ;
+}
+.butn a{
+		font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	color:#21618C;
+}
+.butn{
+	padding-left:42%;
+	padding-top:4%;
+	padding-right:16%;
+	
+}

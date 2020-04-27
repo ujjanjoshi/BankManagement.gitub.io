@@ -1,0 +1,85 @@
+*{
+	padding:0px;
+	margin:0px;
+	 font-family: 'Roboto', sans-serif;
+}
+*:focus {
+    outline: none;
+	background-color:none;
+}
+.mainform{
+	float:left;
+	padding-top:5%;
+	padding-left:12%;
+	padding-right:7%;
+	padding-bottom:2%;
+}
+.img{
+	float:left;
+	padding-left:1%;
+	padding-top:9%;
+	padding-bottom:5%;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+input::placeholder {
+  color: #AFAFAF;
+  font-size:15px;
+  padding-left:2%;
+  font-family: 'Roboto', sans-serif;
+}
+.titl{
+	font-size:48px;
+	padding-bottom:2%;
+	
+}
+.first{
+	padding-top:3%;
+	padding-bottom:1%;
+}
+.second1{
+	padding-top:3%;
+}
+.third1{
+	padding-top:3%;
+}
+.fourth1{
+	padding-top:3%;
+}
+.five1{
+	padding-top:3%;
+}
+.six1{
+	padding-top:3%;
+}
+.seven1{
+	padding-top:3%;
+}
+.eight1{
+	padding-top:3%;
+}
+
+.img1{
+	padding-right:3%;
+}
+.bord{
+border-bottom-style: groove;
+}
+.butn{
+	border:1px solid #6DA5E7;
+	padding:10px 15px;
+	border-radius:3px;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	background-color:#6DA5E7;
+	color:white;
+}
+.btn{
+	padding-left:10%;
+	padding-top:5%;
+	padding-right:5%;
+}

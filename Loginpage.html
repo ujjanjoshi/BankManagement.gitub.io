@@ -1,0 +1,26 @@
+<?php session_start();?>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="div1">
+	<div class="img">
+		<img src="image/undraw_Login_v483.png" width="400" height="500">
+	</div>
+			<div class="div2">
+				<div class="dis"><p>Login</p></div>
+				<form action="loginpage.php" method="POST">
+				<div class="usr"><span class="img1"><img src="https://img.icons8.com/android/24/000000/user.png"/></span><input type="text" class="user" size="50px" name="username" placeholder="Your Name" autocomplete="off"></div><br/>
+				<div class="pas"><span class="img1"><img src="https://img.icons8.com/android/24/000000/lock.png"/></span><input type="password" class="pass" size="50px" name="password" placeholder="Password" autocomplete="off"></div><br/>
+				<div class="btn"><input type="submit" class="butn" value="Login"></div>
+				</form>
+			</div>
+			<div class="div3">
+				<a href="signup.html"><p>Create an account</p></a>
+			</div>
+	</div>
+</body>
+</html>

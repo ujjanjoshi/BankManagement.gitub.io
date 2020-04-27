@@ -1,0 +1,37 @@
+.imgs{
+	position:absolute;
+	left:50%;
+	top:30%;
+}
+.tblee{
+	position:absolute;
+	top:30%;
+	left:5%;
+}
+table th{
+	padding-top:2%;
+	padding-bottom:5%;
+	font-size:25px;
+	font-weight:lighter;
+	padding-left:10%;
+}
+table td{
+	font-size:20px;
+}
+.contact1{
+	top:150%;
+	left:0%;
+	color:white;
+	right:0%;
+	height:20%;
+	letter-spacing:1px;
+	background-color:#2980B9 ;
+	font-family: 'Baloo Bhaina 2', cursive;
+	font-family: 'Lato', sans-serif;
+	word-spacing:1px;
+	position:absolute;
+	text-align:center;
+}
+.info{
+	padding-top:2%;
+}

@@ -1,0 +1,89 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+*:focus {
+    outline: none;
+	background-color:none;
+}
+.img{
+	//border:1px solid black;
+	float:left;
+	padding-top:4%;
+	padding-left:12%;
+	padding-right:5%;
+}
+.div2{
+	float:left;
+	padding-top:10%;
+	padding-bottom:9%;
+	padding-left:5%;
+	padding-right:15%;
+}
+.dis{
+	padding-bottom:5%;
+}
+.div2 p{
+	font-size:48px;
+	padding-top:3%;
+	font-family: 'Roboto', sans-serif;
+	word-spacing:2%;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.usr{
+	padding-top:5%;
+	padding-bottom:2%;
+	border-bottom-style: groove;
+}
+.user{
+	padding-top:3%;
+}
+input::placeholder {
+  color: #AFAFAF;
+  font-size:15px;
+  font-family: 'Roboto', sans-serif;
+}
+.pas{
+	border-bottom-style: groove;
+	padding-bottom:3%;
+}
+.pass{
+	padding-top:3%;
+	background-color:transparent;
+}
+.butn{
+	border:1px solid #6DA5E7;
+	padding:10px 15px;
+	border-radius:3px;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	background-color:#6DA5E7;
+	color:white;
+	
+}
+.btn{
+	padding-left:10%;
+	padding-top:5%;
+	padding-right:5%;
+}
+
+.div3{
+	clear:both;
+	float:left;
+	padding-left:20%;
+	padding-right:15%;
+	
+}
+.img1{
+	padding-right:20px;
+}
+.div3 a{
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	color:black;
+}

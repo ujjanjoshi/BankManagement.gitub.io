@@ -1,0 +1,159 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	
+}
+body{
+	font-size:20px;
+	overflow-x:hidden;
+	color:black;
+	
+}
+.logo{
+	height: 90px;
+	width: auto;
+	font-size:1.6rem;
+	float:left;
+	margin-top:50px;
+	margin-left:20px;
+
+}
+.logo a{
+	color:black;
+	text-decoration:none;
+	text-transform:uppercase;
+	
+}
+.list{
+	float:right;
+	margin-top:50px;
+	margin-bottom:10%;
+	margin-right:20px;
+	
+}
+.list li{
+	display:inline-flex;
+	list-style:none;
+	margin-left:50px;
+	
+}
+.list li a{
+	color:black;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-size:90%;
+	font-weight:100;
+	
+}
+.active,.row ul li:hover{
+	border-bottom:2px solid #5dade2;
+}
+.main{
+	text-align:center;
+	font-family: 'Baloo Bhaina 2', cursive;
+	position:absolute;
+	top:100%;
+	left:5%;
+	right:5%;
+	height:50%;
+	letter-spacing:1px;
+	word-spacing:1px;
+}
+.heading{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.image{
+	width:80%;
+	top:30%;
+	left:12%;
+	right:5%;
+	height:80%;
+	position:absolute;
+	background-image:url('../image/undraw_pay_online_b1hk.png');
+	background-size:100% 100%;
+	animation:slider 14s infinite linear;
+}
+.img{
+	border-bottom:1px solid black;
+}
+@keyframes slider{
+	0%{background-image:url('../image/undraw_online_transactions_02ka.png');}
+	50%{background-image:url('../image/undraw_transfer_money_rywa.png');}
+	75%{background-image:url('../image/undraw_online_banking_7jy4.png');}	
+}
+.contact{
+	top:150%;
+	left:0%;
+	color:white;
+	right:0%;
+	height:20%;
+	letter-spacing:1px;
+	background-color:#2980B9 ;
+	font-family: 'Baloo Bhaina 2', cursive;
+	font-family: 'Lato', sans-serif;
+	word-spacing:1px;
+	position:absolute;
+	text-align:center;
+}
+.info{
+	padding-top:2%;
+}
+.sub-menu{
+		display:none;
+}
+.row ul li:hover .sub-menu{
+	
+	display:block;
+	position:absolute;
+	margin-top:15px;
+	margin-left:-55px;	
+}
+.row ul li:hover .sub-menu ul{
+	display:block;
+	margin:10px;
+}
+.row ul li:hover .sub-menu ul li{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #5dade2;
+	background:transparent;
+	border-radius:0px;
+	text-align:left;
+}
+.row ul li:hover .sub-menu ul li:last-child{
+	border-bottom:none;
+}
+.row ul li:hover .sub-menu ul li:hover{
+	color:#5dade2;
+}
+
+
+.sub-menu1{
+		display:none;
+}
+.row ul li:hover .sub-menu1{
+	display:block;
+	position:absolute;
+	margin-top:15px;
+	margin-left:-55px;	
+}
+.row ul li:hover .sub-menu1 ul{
+	display:block;
+	margin:10px;
+}
+.row ul li:hover .sub-menu1 ul li{
+	width:300px;
+	padding:10px;
+	background:transparent;
+	border:none;
+	text-align:left;
+}
+.row ul li:hover .sub-menu1 ul li:hover{
+	color:#5dade2;
+}
+.mn1{
+	border-bottom:1px dotted #5dade2;
+}
